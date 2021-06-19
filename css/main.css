@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.imgur.com/0gM0SO9.png");
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #a8dadc;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 35px;
+  color: #2a9d8f;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+
+ /* estilizacion del formulario LOGIN*/
+.login {
+  width: 320px;
+  height: 400px;
+  background: #1d3557;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type="text"], .login input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+
+
+ /* estilizacion del formulario REGISTRO */
+
+.registro {
+  width: 600px;
+  height: 450px;
+  background: #1d3557;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 60px 30px;
+}
+
+.registro input {
+  width: 47%;
+  margin-bottom: 25px;
+}
+
+.registro input[type="submit"] {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+.registro input[type="text"], .registro input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.registro a {
+  margin-left: 85%;
+}
